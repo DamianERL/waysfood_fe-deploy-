@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 
-export default function (props) {
+export default function Layout (props) {
   return (
     <div>
         <Head>

@@ -43,8 +43,8 @@ export default function Header() {
                   <div className="w-44 col-span-1 border-t-8  border-solid border-fontPrimary mt-3 "></div>
                   <p className="col-span-2 text-left text-black text-smtele w-80">
                     Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s.
+                    typesetting industry Lorem Ipsum has been the industrys
+                    standard dummy text ever since the 1500s
                   </p>
                 </div>
               </div>
