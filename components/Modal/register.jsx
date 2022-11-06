@@ -7,8 +7,12 @@ import swal from 'sweetalert';
 import Input from '../Atoms/input';
 import Button from '../Atoms/button';
 
-export default function Register() {
+//import
+import {useState } from 'react';
 
+
+
+export default function Register() {
 
     const [input,setInput]= useState("")
     const handleChange=(e)=>{
