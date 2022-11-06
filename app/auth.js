@@ -47,9 +47,9 @@ export const Auth = ({ children }) => {
     } catch (error) {
       console.log(error);
       setIsLoading(false);
-      // if (error.response.data.code === 401) {
-      //   router.push("/");
-      // }
+      if (error.response.data.code === 401) {
+        router.push("/");
+      }
     }
   };
 
