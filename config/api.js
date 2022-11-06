@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ApiError } from 'next/dist/server/api-utils';
 
 export const API = axios.create({
-    baseURL:"http://localhost:5000/api/v1",
+    baseURL:"https://waysfoodbe.herokuapp.com/api/v1",
 });
 
 export const setAuthToken =(token)=>{
