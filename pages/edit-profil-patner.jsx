@@ -10,7 +10,7 @@ import Input from "../components/Atoms/input";
 import Layout from "../components/layout";
 import Navbar from "../components/Navbar/navbar";
 import swal from 'sweetalert';
-export default function editProfilPatner() {
+export default function EditProfilPatner() {
   //state
   const router = useRouter();
   const [patner, setPatner] = useState("");

@@ -7,15 +7,8 @@ import swal from 'sweetalert';
 import Input from '../Atoms/input';
 import Button from '../Atoms/button';
 
-//import
-import { useContext, useState } from 'react';
-import { UserContext } from '../../app/userContext';
-import { useRouter } from "next/dist/client/router";
-
-
 export default function Register() {
-  const router = useRouter()
-  const [state, dispatch] = useContext(UserContext);
+
 
     const [input,setInput]= useState("")
     const handleChange=(e)=>{

@@ -11,7 +11,7 @@ import rupiah from "rupiah-format";
 import Layout from "../components/layout";
 import moment from "moment";
 
-export default function profilePatner() {
+export default function ProfilePatner() {
   //state
   const router = useRouter();
   const [profil, setProfil] = useState("");

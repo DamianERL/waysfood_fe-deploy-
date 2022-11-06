@@ -12,7 +12,7 @@ import Input from "../components/Atoms/input";
 import Layout from "../components/layout";
 import Navbar from "../components/Navbar/navbar";
 
-export default function addProduct() {
+export default function AddProduct() {
   
   //id&&state
   const route = useRouter();
