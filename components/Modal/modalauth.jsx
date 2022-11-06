@@ -44,7 +44,7 @@ export default function ModalAuth({ showMLogin, setShowMLogin }) {
       <Modal c isVisible={showMLogin} onClose={() => setShowMLogin(false)}>
         <Login />
         <p className=" text-base text-center mb-8">
-          Don't have an account? click
+          Don`&apos`t have an account? click
           <strong onClick={handleCloseRegis}> HERE</strong>
         </p>
       </Modal>
